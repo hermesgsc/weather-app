@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Escreva o nome da cidade" spellcheck="false">
+            <button><img src="./imagens/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="./imagens/rain.png" class="wheater-icon">
+            <h1 class="temp">22 °C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="./imagens/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Umidade</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./imagens/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Velocidade do vento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
