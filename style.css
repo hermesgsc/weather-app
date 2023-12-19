@@ -10,6 +10,7 @@
 body {
     background-color: #222;
     height: 100vh;
+    overflow: hidden;
 }
 
 .card {
@@ -116,6 +117,7 @@ body {
     body {
         background: linear-gradient(135deg, #00feba, #331bce);
         height: 100vh;
+        overflow: hidden;
     }
     
     .card {
